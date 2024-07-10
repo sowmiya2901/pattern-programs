@@ -1,0 +1,29 @@
+     package basics;
+
+public class sum_of_two_nums {
+	
+	public static void main(String[] args) {
+		 for(int i=0;i<5;i++) {
+			 for(int k=0;k<i-1;k++) {
+				 System.out.print(" ");
+			 }
+			 for(int j=0;j<5-i;j++) {
+				 System.out.print("*");
+			 }
+			 System.out.println();
+			 
+		 }
+	}
+
+}
+
+
+
+output:
+*****
+ ****
+  ***
+   **
+    *
+
+
