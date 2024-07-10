@@ -1,0 +1,47 @@
+     package basics;
+import java.util.*;
+public class sum_of_two_nums {
+	
+	public static void main(String[] args) {
+		 char c='a';
+		 Scanner sc=new Scanner(System.in);
+		 System.out.println("enter the number of shells to cover the alphabets:");
+		 int n=sc.nextInt();
+		 int r=(n*2)+2;
+		 for(int i=1;i<=r;i++) {
+			 for(int j=1;j<=r+1;j++) {
+				if(i==n+1 && j==n+1 ||i==n+1 && j==n+2|| i==n+1 && j==n+3 ||i==n+2 && j==n+1||i==n+2 && j==n+2||i==n+2 && j==n+3) {
+					System.out.print(c++);
+				
+				}else {
+					System.out.print("*");
+				}
+				
+			 }
+			 System.out.println();
+			 
+		 }
+		 sc.close();
+	}
+
+
+}
+
+
+
+
+output;
+enter the number of shells to cover the alphabets:
+5
+*************
+*************
+*************
+*************
+*************
+*****abc*****
+*****def*****
+*************
+*************
+*************
+*************
+*************
