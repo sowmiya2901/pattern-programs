@@ -1,0 +1,24 @@
+     package basics;
+
+public class sum_of_two_nums {
+	
+	public static void main(String[] args) {
+		for(int i=0;i<4;i++) {
+			for(int j=0;j<i+1;j++) {
+				if((i+j)%2==0) {
+					System.out.print("1");
+				}else {
+				System.out.print("0");
+				}
+			}
+			System.out.println();
+		}
+	}
+
+}
+
+output:
+1
+01
+101
+0101
